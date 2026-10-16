@@ -32,6 +32,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "FastAPI SaaS Boilerplate — Launch in days, not months",
   description: "The ultimate Python & Next.js starter kit to build, launch, and scale your AI SaaS.",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
